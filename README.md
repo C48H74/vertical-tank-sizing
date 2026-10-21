@@ -4,6 +4,18 @@ An agent skill and dependency-free Node.js calculator for preliminary sizing of 
 
 [English skill](SKILL.md) · [Português](SKILL.pt.md) · [Español](SKILL.es.md)
 
+![Tank dimensions: V = 50 m3, D = 3.0 m, H = 7.07 m, total height about 7.8 m](assets/tank-dimensions.jpg)
+
+## Verified example
+
+| Step | Illustration |
+|---|---|
+| Base area A = 7.0686 m2 and useful height H = V/A = 7.07 m | ![Base area](assets/tank-base-area.jpg) |
+| Hydrostatic pressure 69.4 kPa, total 170.7 kPa | ![Pressure](assets/tank-hydrostatic-pressure.jpg) |
+| Bottom force 490.5 kN and stored mass 50 t | ![Force and mass](assets/tank-force-mass.jpg) |
+
+Images were generated with AI and checked against the calculator output (V = 50 m3, D = 3.0 m, water). The executable calculations are the numerical reference.
+
 ## What it does
 
 - Computes base area, useful height, total height, hydrostatic and absolute pressure at the base, bottom force and stored mass.
